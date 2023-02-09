@@ -1,0 +1,58 @@
+/*
+  Imagen1: https://manzdev.github.io/eoi-fullstack/css/stewie.png
+  Imagen2: https://manzdev.github.io/eoi-fullstack/css/stewie-seal.png
+*/
+@font-face {
+  font-family: "Victoria typewriter";
+  font-weight: 400;
+  src: local("Victoria report");
+}
+
+body {
+  background-image:url(https://i.pinimg.com/originals/fc/a3/3f/fca33f325c82e5d9faa4d85913028b1d.jpg);
+  background-size: cover;
+  color: black;
+}
+
+.aviso {
+  margin:  200px;
+  padding: 30px 70px 40px;
+  width: 700px;
+  background-image:url(https://cdn.pixabay.com/photo/2017/04/13/21/42/old-2228749_1280.jpg);
+  background-size:cover;
+  font-family: Victoria typewriter;
+  color: black;
+  text-align: justify;
+  border-radius: 20px 40px;
+  box-shadow: 5px 5px 5px 5px #241e00;
+  line-height: 200%;
+
+}
+
+.aviso > h1 {
+  color:black;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Victoria Typewriter';
+  text-shadow: 2px 2px 2px #000a;
+  margin-bottom: 60px;
+  margin-top: 50px;
+
+}
+
+#stewie {
+  filter: grayscale(0.7) opacity(0.6);
+  margin-left: 475px;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px #000a, -5px -5px 35px #000a inset;
+
+
+}
+
+
+#nombre {
+  border: 0;
+  background: 0;
+  border-bottom: 1px solid black;
+}
